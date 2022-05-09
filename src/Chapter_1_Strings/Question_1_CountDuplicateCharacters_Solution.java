@@ -3,7 +3,7 @@ package Chapter_1_Strings;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Question1_CountDuplicateCharacters_Solution {
+public class Question_1_CountDuplicateCharacters_Solution {
 
 	/*
 	 * Counting duplicate characters: Write a program that counts duplicate
