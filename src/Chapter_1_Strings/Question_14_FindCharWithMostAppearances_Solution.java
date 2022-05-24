@@ -33,7 +33,7 @@ public class Question_14_FindCharWithMostAppearances_Solution {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println( maxOccurenceCharacter("heo") );
+		System.out.println( maxOccurenceCharacter("heo") );  //e
 	}
 
 }
