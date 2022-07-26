@@ -2,7 +2,7 @@ package Chapter_1_Strings;
 
 import java.util.regex.Pattern;
 
-public class Question_13_RemoveGivenCharacters_Solution {
+public class Q13_RemoveGivenCharacters_Solution {
 
 	public static String removeCharacter(String str, char c) {
 		return str.replaceAll(Pattern.quote(String.valueOf(c)), "");

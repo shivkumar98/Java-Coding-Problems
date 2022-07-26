@@ -2,7 +2,7 @@ package Chapter_1_Strings;
 
 import java.util.Arrays;
 
-public class Question_15_SortArraysOfStringByLength {
+public class Q15_SortArraysOfStringByLength {
 	
 	/*
 	 * Write a program that sorts by the

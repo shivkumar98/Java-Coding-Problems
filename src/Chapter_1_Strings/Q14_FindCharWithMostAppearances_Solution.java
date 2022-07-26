@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Question_14_FindCharWithMostAppearances_Solution {
+public class Q14_FindCharWithMostAppearances_Solution {
 	
 	// this solution relies on a HashMap
 	// 1: first loop the chars of the string and put into HashMap

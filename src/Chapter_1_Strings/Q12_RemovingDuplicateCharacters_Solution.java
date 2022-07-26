@@ -1,6 +1,6 @@
 package Chapter_1_Strings;
 
-public class Question_12_RemovingDuplicateCharacters_Solution {
+public class Q12_RemovingDuplicateCharacters_Solution {
 
 	/*
 	 * Write a program that removes the

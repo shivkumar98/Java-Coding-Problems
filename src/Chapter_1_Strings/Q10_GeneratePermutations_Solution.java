@@ -1,6 +1,6 @@
 package Chapter_1_Strings;
 
-public class Question_10_GeneratePermutations_Solution {
+public class Q10_GeneratePermutations_Solution {
 	
 	public static void permutateAndPrint(String str) {
 		permutateAndPrint("", str);

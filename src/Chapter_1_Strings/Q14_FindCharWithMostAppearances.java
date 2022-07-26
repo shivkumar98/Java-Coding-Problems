@@ -3,7 +3,7 @@ package Chapter_1_Strings;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Question_14_FindCharWithMostAppearances {
+public class Q14_FindCharWithMostAppearances {
 
 	
 	/*

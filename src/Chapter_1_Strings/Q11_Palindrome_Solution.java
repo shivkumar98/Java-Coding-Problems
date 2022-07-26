@@ -1,6 +1,6 @@
 package Chapter_1_Strings;
 
-public class Question_11_Palindrome_Solution {
+public class Q11_Palindrome_Solution {
 	
 	public static boolean isPalindrome(String str) {
 		return str.equals(new StringBuilder(str).reverse().toString() );

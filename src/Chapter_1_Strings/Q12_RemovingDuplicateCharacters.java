@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Question_12_RemovingDuplicateCharacters {
+public class Q12_RemovingDuplicateCharacters {
 	
 	/*
 	 * Write a program that removes the

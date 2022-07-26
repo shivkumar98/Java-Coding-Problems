@@ -1,6 +1,6 @@
 package Chapter_1_Strings;
 
-public class Question_11_Palindrome {
+public class Q11_Palindrome {
 
 	public static boolean isPalindrome(String str) {
 		boolean isPalindrome = true;

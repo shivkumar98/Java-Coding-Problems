@@ -1,6 +1,6 @@
 package Chapter_1_Strings;
 
-public class Question_13_RemoveGivenCharacters {
+public class Q13_RemoveGivenCharacters {
 	
 	/*
 	 * Write a program that removes the given
