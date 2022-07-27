@@ -3,7 +3,7 @@ package Chapter_1_Strings;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q20_LongestCommonPrefix {
+public class Q22_LongestCommonPrefix {
 	
 	/*
 	 *  Finding the longest common prefix: 
