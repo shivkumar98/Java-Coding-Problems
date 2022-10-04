@@ -1,5 +1,6 @@
 package chapter_2_objects_immutability_switch;
 
+import java.awt.Color;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -57,4 +58,19 @@ public class Q01_solution {
 		.anyMatch(Objects::isNull);
 		}
 	
+}
+
+/* Objects class has another useful method: requireNonNull
+ *  this enforces that a constructors is passed non-null values
+*/
+
+class CarV2 {
+	private final Color color;
+	private final String name;
+	public CarV2(String name, Color color) {
+		this.color = Objects.requireNonNull(color, "color cant be null");
+		this.name = Objects.requireNonNull(name, "name cant be null");
+	}
+	// this much more cleaner than testing for nulls and throwing an exception.
+	// Note: the above will throw a NullPointerException by default
 }

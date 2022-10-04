@@ -15,3 +15,5 @@ public class Q01 {
 		System.out.println(isNull(obj)); // true
 	}
 }
+
+
