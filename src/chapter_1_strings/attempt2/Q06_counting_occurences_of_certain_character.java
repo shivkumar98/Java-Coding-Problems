@@ -14,6 +14,8 @@ public class Q06_counting_occurences_of_certain_character {
 	public static void main(String[] args) {
 		System.out.println(countOccurencesOfCharacter("hello", 'l')); // 2
 		System.out.println(countOccurencesOfCharacter("", ' ')); // 0
+		System.out.println(countOccurencesOfCharacter("hello", 'l')); // 2
+
 
 	}
 
