@@ -1,5 +1,7 @@
 package chapter_1_strings.attempt2;
 
+import java.util.function.BinaryOperator;
+
 public class Q25_compute_min_max_of_two_numbers {
 	
 	static int[] minMax(int a, int b) {
@@ -30,8 +32,11 @@ class Solution25 {
 		double maxDouble = Double.max(d1, d2);
 		
 		
+		// solution 3:
 		float f1 = 1.223f;
-		
+		final float f2 = 33.245f;
+		float minFloat = BinaryOperator.minBy(Float::compareTo).apply(f1, f2);
+		float maxFloat = BinaryOperator.maxBy(Float::compareTo).apply(f1, f2);
 	}
 	
 }
