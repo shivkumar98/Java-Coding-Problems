@@ -35,5 +35,6 @@ public class Q17_solution {
 	public static void main(String[] args) {
 		System.out.println(countStringInString("111", "11")); // 1
 		System.out.println(countStringInString2("111", "11")); // 2
+		System.out.println(countStringInString("11", "111")); // 0
 	}
 }
