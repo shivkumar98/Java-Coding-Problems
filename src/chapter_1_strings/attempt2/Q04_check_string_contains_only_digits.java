@@ -20,3 +20,23 @@ public class Q04_check_string_contains_only_digits {
 	}
 
 }
+
+class Solution4 {
+	
+	// solution 1:
+	static boolean containsOnlyDigits(String str) {
+		for (int i=0;i<str.length();i++) {
+			if (!Character.isDigit(str.charAt(i)))
+				return false;
+		}
+		return true;
+	}
+	
+	// solution 2:
+	static boolean contrainsOnlyDigits2(String str) {
+		return !str.chars().anyMatch(i -> Character.isDigit(i));
+	}
+	
+	// solution 3 is same as my solution!
+
+}

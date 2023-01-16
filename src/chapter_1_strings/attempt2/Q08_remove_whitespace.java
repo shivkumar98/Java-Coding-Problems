@@ -15,3 +15,20 @@ public class Q08_remove_whitespace {
 		System.out.println(removeAllWhitespace("hel    io")); // "helio"
 	}
 }
+
+class Solution8 {
+	
+	// we can use \\s for whitespace
+	
+	static String removeWhitespaces(String str) {
+		return str.replaceAll("\\s", "");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(removeWhitespaces(" ")); // ""
+		System.out.println(removeWhitespaces("  h")); // "h"
+		System.out.println(removeWhitespaces(" 1 ")); // "1"
+		System.out.println(removeWhitespaces("hel    io")); // "helio"
+	}
+
+}
